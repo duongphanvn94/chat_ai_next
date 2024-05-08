@@ -21,14 +21,14 @@ export default function RootLayout({
         <ClerkProvider>
             <html lang="en">
             <body className={inter.className}>
-            {/*<header>*/}
-            {/*    <SignedOut>*/}
-            {/*        <SignInButton/>*/}
-            {/*    </SignedOut>*/}
-            {/*    <SignedIn>*/}
-            {/*        <UserButton/>*/}
-            {/*    </SignedIn>*/}
-            {/*</header>*/}
+            <header>
+                {/*<SignedOut>*/}
+                {/*    <SignInButton/>*/}
+                {/*</SignedOut>*/}
+                {/*<SignedIn>*/}
+                {/*    <UserButton/>*/}
+                {/*</SignedIn>*/}
+            </header>
             {children}</body>
             </html>
         </ClerkProvider>
